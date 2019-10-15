@@ -19,7 +19,8 @@ In LD0, a default context would be implicitly provided.
 While JSON is very popular and widely known,
 it can be verbose, and annoying in several respects
 (no comments, no trailing comma).
-So using a variant such as [HJSON] or [YAML] could make it better looking
+So using a variant such as [HJSON] or [YAML] (or possibly [Toml] or [Property list])
+could make it better looking
 (although less recognizable by some developers).
 
 My sweet point would probably be recommend [HJSON],
@@ -152,5 +153,7 @@ and producing JSON results (but also, possibly, standard SPARQL bindings).
 [JSON-LD]: http://json-ld.org/
 [HJSON]: https://hjson.org/
 [YAML]: https://yaml.org/
+[Toml]: https://github.com/toml-lang/toml
+[Property list]: https://en.wikipedia.org/wiki/Property_list 
 [GraphQL-LD]: https://gist.github.com/rubensworks/9d6eccce996317677d71944ed1087ea6
 [GraphQL]: https://graphql.org/
